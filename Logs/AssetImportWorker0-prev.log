@@ -1,0 +1,207 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1586; Version 2009; 64bit' Language: 'pl' Physical Memory: 32718 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Skill100/source/repos/uNITY/Zajecia/Lato22/FridayRun2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1034
+Successfully changed project path to: C:/Users/Skill100/source/repos/uNITY/Zajecia/Lato22/FridayRun2D
+C:/Users/Skill100/source/repos/uNITY/Zajecia/Lato22/FridayRun2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Skill100/source/repos/uNITY/Zajecia/Lato22/FridayRun2D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 5500 XT (ID=0x7340)
+    Vendor:   
+    VRAM:     8151 MB
+    Driver:   30.0.14029.1011
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002929 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.443 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004310 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2549.
+Total: 3.638300 ms (FindLiveObjects: 0.387700 ms CreateObjectMapping: 0.071000 ms MarkObjects: 3.074500 ms  DeleteObjects: 0.103000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(b0824d51a320451458314b4b4cef87cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(b0824d51a320451458314b4b4cef87cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75f126f6b75407e9159682b9d776975') in 0.036625 seconds
+  Import took 0.040910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 528.438695 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(e5f1f23a75aa70044a778f3b761545e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(e5f1f23a75aa70044a778f3b761545e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1760a6ba4d759eaab531799101e05dee') in 0.004608 seconds
+  Import took 0.008509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.180693 seconds.
+  path: Assets/Fonts/BLACKOAKSTD.OTF
+  artifactKey: Guid(48fd063107cbf8f4994a378e43dbdd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/BLACKOAKSTD.OTF using Guid(48fd063107cbf8f4994a378e43dbdd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9414ac18b45d8371d80e5933be5eff29') in 0.108324 seconds
+  Import took 0.112035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Fonts/BRUSHSCRIPTSTD.OTF
+  artifactKey: Guid(60c3f2ee3182f194d9774d8fcc149f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/BRUSHSCRIPTSTD.OTF using Guid(60c3f2ee3182f194d9774d8fcc149f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907243d8abefa41cf8c855b7a2583785') in 0.017430 seconds
+  Import took 0.020543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.265272 seconds.
+  path: Assets/Fonts/CANDARA.TTF
+  artifactKey: Guid(bd086b5fd7655bc4fbf0510ac0572344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/CANDARA.TTF using Guid(bd086b5fd7655bc4fbf0510ac0572344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ae806d45ac5252c3f0a469d565d288') in 0.022620 seconds
+  Import took 0.026177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Fonts/CANDARAZ.TTF
+  artifactKey: Guid(a182c5d22210d404eb8835c3a964a691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/CANDARAZ.TTF using Guid(a182c5d22210d404eb8835c3a964a691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cfae475fee34d113f7911facf7e03e') in 0.016259 seconds
+  Import took 0.019482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Fonts/CANDARAL.TTF
+  artifactKey: Guid(a20d10437040f9c47b21c03991da1b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/CANDARAL.TTF using Guid(a20d10437040f9c47b21c03991da1b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143f49bc4e2d18e2810671443525a9dc') in 0.017668 seconds
+  Import took 0.021995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Fonts/CANDARALI.TTF
+  artifactKey: Guid(35ab543951a461a4c8299b65e15872e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/CANDARALI.TTF using Guid(35ab543951a461a4c8299b65e15872e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8096dcf4612f476f4eb4735f90404dbd') in 0.014877 seconds
+  Import took 0.018991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Fonts/CANDARAB.TTF
+  artifactKey: Guid(9cdfad94c8bcfcb4eae4602ecd330c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/CANDARAB.TTF using Guid(9cdfad94c8bcfcb4eae4602ecd330c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d0e0de0713c719720d995b301ba74f') in 0.017042 seconds
+  Import took 0.020525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Fonts/CANDARAI.TTF
+  artifactKey: Guid(13460e49a6eff354890b46353f488e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/CANDARAI.TTF using Guid(13460e49a6eff354890b46353f488e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6301ee76e45bab94d0710145ed0431f2') in 0.014724 seconds
+  Import took 0.018809 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.228 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2596.
+Total: 2.593700 ms (FindLiveObjects: 0.293500 ms CreateObjectMapping: 0.049900 ms MarkObjects: 2.225900 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2599.
+Total: 2.695300 ms (FindLiveObjects: 0.381700 ms CreateObjectMapping: 0.048300 ms MarkObjects: 2.243400 ms  DeleteObjects: 0.020200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -34,6 +34,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Obstacle"))
+        {
+            OnObstacleHit();
+        }
+    }
+
+    private void OnObstacleHit()
+    {
+        GameManager.instance.GameOver();
+    }
+
     private bool IsGrounded()
     {
         RaycastHit2D hit = Physics2D.BoxCast(
