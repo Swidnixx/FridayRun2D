@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -24,7 +25,9 @@ public class GameManager : MonoBehaviour
     public float worldScrollingSpeed = 0.1f;
     private float score = 0;
 
+    // UI
     public Text scoreText;
+    public GameObject restartButton;
 
     private void FixedUpdate()
     {
@@ -35,5 +38,12 @@ public class GameManager : MonoBehaviour
     internal void GameOver()
     {
         Time.timeScale = 0;
+        restartButton.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(0);
+        Time.timeScale = 1;
     }
 }
