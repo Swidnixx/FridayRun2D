@@ -6,6 +6,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float jumpScale = 1;
+    public float liftingForce = 1000;
+
     private Rigidbody2D rb;
     private BoxCollider2D playerCollider;
     private bool doubleJumped;
@@ -32,6 +34,13 @@ public class PlayerController : MonoBehaviour
                 doubleJumped = true;
             }
         }
+        if(Input.GetMouseButton(0))
+        {
+            if(rb.velocity.y < 0)
+            {
+                rb.AddForce(new Vector2(0, liftingForce * Time.deltaTime * -rb.velocity.y));
+            }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -50,7 +59,7 @@ public class PlayerController : MonoBehaviour
     private bool IsGrounded()
     {
         RaycastHit2D hit = Physics2D.BoxCast(
-            transform.position,
+            transform.position + (Vector3)playerCollider.offset,
             playerCollider.bounds.size,
             0f,
             Vector2.down,

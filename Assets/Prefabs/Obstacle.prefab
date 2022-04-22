@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4204049941147707087}
   - component: {fileID: 4373050990537898115}
   - component: {fileID: 7952157003351657965}
+  - component: {fileID: 5576080891856920561}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Obstacle
@@ -111,6 +112,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.9, y: 1.1}
   m_EdgeRadius: 0
+--- !u!95 &5576080891856920561
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328267419646499861}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 944f33d171859754fb92c5dc6b47bf19, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7666133795221661511
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,6 +141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5261277268198057523}
   - component: {fileID: 4430873836044787568}
+  - component: {fileID: 5476508457019405668}
   m_Layer: 0
   m_Name: laser-head._0 (1)
   m_TagString: Untagged
@@ -193,6 +214,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &5476508457019405668
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666133795221661511}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 051fdd4404e115344a414fd198a6295e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8723901023815102690
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8795303142654215830}
   - component: {fileID: 2342635384844873706}
+  - component: {fileID: 4945854993306762117}
   m_Layer: 0
   m_Name: laser-head._0
   m_TagString: Untagged
@@ -275,3 +316,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &4945854993306762117
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8723901023815102690}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 051fdd4404e115344a414fd198a6295e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
