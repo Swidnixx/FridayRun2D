@@ -24,10 +24,19 @@ public class GameManager : MonoBehaviour
     // Game Settings
     public float worldScrollingSpeed = 0.1f;
     private float score = 0;
+    private int coins = 0;
+    private int highScore;
 
     // UI
     public Text scoreText;
     public GameObject restartButton;
+    public Text coinText;
+
+    private void Start()
+    {
+        coins = PlayerPrefs.GetInt("Coins");
+        coinText.text = coins.ToString();
+    }
 
     private void FixedUpdate()
     {
@@ -45,5 +54,12 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
         Time.timeScale = 1;
+    }
+
+    public void CoinCollected()
+    {
+        coins++;
+        coinText.text = coins.ToString();
+        PlayerPrefs.SetInt("Coins", coins);
     }
 }
