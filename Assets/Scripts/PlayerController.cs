@@ -55,11 +55,20 @@ public class PlayerController : MonoBehaviour
             Destroy(collision.gameObject);
             GameManager.instance.CoinCollected();
         }
+
+        if(collision.CompareTag("Battery"))
+        {
+            Destroy(collision.gameObject);
+            GameManager.instance.BatteryCollected();
+        }
     }
 
     private void OnObstacleHit()
     {
-        GameManager.instance.GameOver();
+        if (!GameManager.instance.battery.isActive)
+        {
+            GameManager.instance.GameOver(); 
+        }
     }
 
     private bool IsGrounded()
