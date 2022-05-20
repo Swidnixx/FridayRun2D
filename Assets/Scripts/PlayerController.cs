@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Obstacle"))
+        if(collision.CompareTag("Obstacle") && GameManager.instance.battery.isActive == false)
         {
             OnObstacleHit();
         }
@@ -60,6 +60,12 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(collision.gameObject);
             GameManager.instance.BatteryCollected();
+        }
+
+        if(collision.CompareTag("Magnet"))
+        {
+            Destroy(collision.gameObject);
+            GameManager.instance.MagnetCollected();
         }
     }
 
