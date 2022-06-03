@@ -338,7 +338,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 220057508}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1584328442}
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: UpgradeBattery
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &220057508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -893,7 +905,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 433542840}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1584328442}
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: UpgradeMagnet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &433542840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2438,8 +2462,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57864f1d87aebc48a0853d54067ec25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battery: {fileID: 11400000, guid: 6b916288ed121b84ba702d289fbf950e, type: 2}
+  powerups: {fileID: 11400000, guid: dda56c1a249ce3d4baaa583b0c58667b, type: 2}
   batteryInfoText: {fileID: 2001399683}
+  batteryButton: {fileID: 220057507}
+  magnetInfoText: {fileID: 1860270039}
+  magnetButton: {fileID: 433542839}
+  coinsText: {fileID: 1468112337}
 --- !u!1 &1636757535
 GameObject:
   m_ObjectHideFlags: 0

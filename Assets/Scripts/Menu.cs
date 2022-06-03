@@ -17,6 +17,7 @@ public class Menu : MonoBehaviour
 
     private void Start()
     {
+        //PlayerPrefs.SetInt("Coins", 1000);
         GoToMenu();
     }
 

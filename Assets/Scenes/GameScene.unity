@@ -242,6 +242,7 @@ MonoBehaviour:
   restartButton: {fileID: 295515660}
   coinText: {fileID: 68884164}
   highscoreText: {fileID: 358964508}
+  powerupManager: {fileID: 11400000, guid: dda56c1a249ce3d4baaa583b0c58667b, type: 2}
   battery: {fileID: 11400000, guid: 6b916288ed121b84ba702d289fbf950e, type: 2}
   magnet: {fileID: 11400000, guid: 8afef95a37e17834ba224b1bdcce2b2d, type: 2}
 --- !u!4 &287443830
@@ -424,6 +425,8 @@ MonoBehaviour:
   floor2: {fileID: 1926971}
   tiles:
   - {fileID: 1895676361521578319, guid: 18154d9b677ffcd4a805115b2a8f7f84, type: 3}
+  - {fileID: 1895676361521578319, guid: 93655f3b0e923ea48ac8c1bedff18983, type: 3}
+  - {fileID: 5887964238012463998, guid: 0029ffeaa612cc4439a5821f99b55139, type: 3}
 --- !u!4 &311646412
 Transform:
   m_ObjectHideFlags: 0
